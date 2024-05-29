@@ -1,7 +1,7 @@
 from loguru import logger
 
-from utils.abs_webpage import BaseWebPage
-from utils.requests_utils import requests_chat_completion
+from flask_app.utils.abs_webpage import BaseWebPage
+from flask_app.utils.requests_utils import requests_chat_completion
 
 
 class BaseOpenai(BaseWebPage):

@@ -1,6 +1,6 @@
 from loguru import logger
 
-from api.openai_api.chat_completion_api import ChatCompletionPage
+from ..api.openai_api.chat_completion_api import ChatCompletionPage
 
 
 class OpenaiService:

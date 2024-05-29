@@ -1,8 +1,8 @@
 from loguru import logger
 
-from utils.requests_utils import requests_weather_com
-from settings import WEATHER_DOMAIN, WEATHER_KEY
-from utils.abs_webpage import BaseWebPage
+from flask_app.utils.requests_utils import requests_weather_com
+from flask_app.settings import WEATHER_DOMAIN, WEATHER_KEY
+from flask_app.utils.abs_webpage import BaseWebPage
 
 
 class BaseWeatherCom(BaseWebPage):

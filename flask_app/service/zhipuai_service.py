@@ -1,8 +1,8 @@
 from loguru import logger
 from zhipuai import ZhipuAI
 
-from db.local_db import DBOperation
-from sdk.zhipuai_sdk.chat_completion_sdk import chat_completions
+from ..db.local_db import DBOperation
+from ..sdk.zhipuai_sdk.chat_completion_sdk import chat_completions
 
 
 class ZhiPuaiService:

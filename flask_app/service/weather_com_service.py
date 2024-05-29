@@ -1,6 +1,6 @@
 from loguru import logger
 
-from api.weather_com_api.weather_query_api import CurrentWeatherPage
+from ..api.weather_com_api.weather_query_api import CurrentWeatherPage
 
 
 class WeatherComService:

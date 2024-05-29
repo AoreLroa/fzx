@@ -3,9 +3,9 @@ import json
 
 from loguru import logger
 
-from service.zhipuai_service import ZhiPuaiService
-from settings import WEATHER_KEY, ZHIPU_API_KEY
-from service.weather_com_service import WeatherComService
+from ..service.zhipuai_service import ZhiPuaiService
+from ..settings import WEATHER_KEY, ZHIPU_API_KEY
+from ..service.weather_com_service import WeatherComService
 
 zhipu_service = function_call = functions = chat_message_list = None
 

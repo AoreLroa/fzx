@@ -1,10 +1,10 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from settings import local_mysql_config as lmc
-from utils.mate_class import SingletonMeta
-from models.db_model import FunctionRegedit, VariableRegedit
-from models.zhipuai_model import FunctionBody, Property, Tool
+from ..settings import local_mysql_config as lmc
+from ..utils.mate_class import SingletonMeta
+from ..models.db_model import FunctionRegedit, VariableRegedit
+from ..models.zhipuai_model import FunctionBody, Property, Tool
 
 # 数据库链接
 engine = create_engine(f"mysql+mysqlconnector://{lmc['user']}:{lmc['password']}@{lmc['host']}:{lmc['port']}/{lmc['database']}")
